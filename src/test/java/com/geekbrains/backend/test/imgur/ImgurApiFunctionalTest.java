@@ -1,34 +1,24 @@
 package com.geekbrains.backend.test.imgur;
 
-import java.util.Properties;
-
-import com.geekbrains.backend.test.FunctionalTest;
-import io.restassured.RestAssured;
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.MethodOrderer;
+import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestMethodOrder;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 
-public class ImgurApiFunctionalTest extends FunctionalTest {
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+public class ImgurApiFunctionalTest extends ImgurApiAbstractTest {
 
-
-    private static Properties properties;
-    private static String TOKEN;
-
-    @BeforeAll
-    static void beforeAll() throws Exception {
-        properties = readProperties();
-        RestAssured.baseURI = properties.getProperty("imgur-api-url");
-        TOKEN = properties.getProperty("imgur-api-token");
-    }
+    private static String CURRENT_IMAGE_ID;
 
     @Test
+    @Order(1)
     void getAccountBase() {
         String userName = "levinmk23";
         given()
-                .auth()
-                .oauth2(TOKEN)
+                .spec(requestSpecification)
                 .log()
                 .all()
                 .expect()
@@ -40,10 +30,10 @@ public class ImgurApiFunctionalTest extends FunctionalTest {
     }
 
     @Test
+    @Order(2)
     void postImageTest() {
-        given()
-                .auth()
-                .oauth2(TOKEN)
+        CURRENT_IMAGE_ID = given()
+                .spec(requestSpecification)
                 .multiPart("image", getFileResource("img.jpg"))
                 .formParam("name", "Picture")
                 .formParam("title", "The best picture!")
@@ -57,8 +47,41 @@ public class ImgurApiFunctionalTest extends FunctionalTest {
                 .log()
                 .all()
                 .when()
-                .post("upload");
+                .post("upload")
+                .body()
+                .jsonPath()
+                .getString("data.id");
     }
 
-    // TODO: 08.12.2021 Домашка протестировать через RA минимум 5 различных end point-ов
+    @Test
+    @Order(3)
+    void deleteImageById() {
+        given()
+                .spec(requestSpecification)
+                .log()
+                .all()
+                .expect()
+                .body("status", is(200))
+                .log()
+                .all()
+                .when()
+                .delete("image/" + CURRENT_IMAGE_ID);
+    }
+
+    @Test
+    void testCreateComment() {
+        given()
+                .spec(requestSpecification)
+                .formParam("image_id", "8xGCvWR")
+                .formParam("comment", "Hello world")
+                .log()
+                .all()
+                .expect()
+                .body("success", is(true))
+                .body("status", is(200))
+                .log()
+                .all()
+                .when()
+                .post("comment");
+    }
 }
