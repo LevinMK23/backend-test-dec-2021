@@ -16,7 +16,7 @@
                 <version>${mybatis.plugin.version}</version>
                 <executions>
                     <execution>
-                        <phase>prepare-package</phase>
+                        <phase>process-resources</phase>
                         <goals>
                             <goal>generate</goal>
                         </goals>
