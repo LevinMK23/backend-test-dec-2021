@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="Lesson 7. Jenkins">
       <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/SaasConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-market.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/mini-market.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/FunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/geekbrains/backend/test/FunctionalTest.java" afterDir="false" />
       <change beforePath="$USER_HOME$/arcadia/market/adv/incut/ya.make" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/ya.make" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +71,7 @@
       <recent name="com.geekbrains.backend.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestDb">
+  <component name="RunManager" selected="JUnit.HelloTest.testWithResource">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.Test" />
       <module name="backend-test-dec-2021" />
@@ -108,6 +109,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HelloTest.testWithResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-dec-2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.backend.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test" />
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.HelloTest" />
+      <option name="METHOD_NAME" value="testWithResource" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImgurApiFunctionalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test-dec-2021" />
       <extension name="coverage">
@@ -139,29 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImgurApiFunctionalTest.postImageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="backend-test-dec-2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geekbrains.backend.test.imgur.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.geekbrains.backend.test.imgur" />
-      <option name="MAIN_CLASS_NAME" value="com.geekbrains.backend.test.imgur.ImgurApiFunctionalTest" />
-      <option name="METHOD_NAME" value="postImageTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HelloTest.testWithResource" />
+        <item itemvalue="JUnit.ImgurApiFunctionalTest" />
         <item itemvalue="Application.TestDb" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest" />
         <item itemvalue="JUnit.ImgurApiFunctionalTest.getAccountBase" />
-        <item itemvalue="JUnit.ImgurApiFunctionalTest.postImageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +181,7 @@
       <workItem from="1639244305384" duration="3475000" />
       <workItem from="1639594525583" duration="2238000" />
       <workItem from="1639849292515" duration="3954000" />
-      <workItem from="1640193243350" duration="726000" />
+      <workItem from="1640193243350" duration="1127000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured">
       <created>1638990916597</created>
@@ -210,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640194862980</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lesson 7. Jenkins">
+      <created>1640195336253</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640195336253</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lesson 7. Jenkins">
+      <created>1640195557008</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640195557008</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
