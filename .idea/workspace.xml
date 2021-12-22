@@ -5,55 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="Lesson 5. Retrofit&#10;Тестируем внешний сервис при помощи клиента на Retrofit">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini-market.mv.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/db/DbService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/db/TestDb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/backend/test/db/homeWork.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/geekbrains/backend/test/db/myBatisConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/advertiser/model/Advertiser.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/mapper/AbstractIncutBodyMapper.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/mapper/BannerIncutBodyMapper.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/model/Incut.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/model/body/AbstractIncutBody.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/model/body/BannerIncutBody.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/registry/IncutBodyRegistry.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/utils/time/TimeUtils.kt" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/incut_history/incut_history.sql" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/resources/ru/yandex/market/adv/incut/clients/VendorPartnerClientTest/models.json" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-partner-client/src/java/ru/yandex/market/vendor/api/client/ModelsRequest.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/SaasConfig.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini-market.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/mini-market.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/java/ru/yandex/market/adv/incut/api/DefaultApiService.java" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/java/ru/yandex/market/adv/incut/api/DefaultApiService.java" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/AppConfig.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/AppConfig.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/DaoConfig.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/DaoConfig.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/ExecutorsConfig.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/ExecutorsConfig.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/ServiceConfig.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/ServiceConfig.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/TestDao.kt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/advetiser/AdvertiserDao.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/advetiser/AdvertiserDao.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/incut/IncutDao.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/incut/IncutDao.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/mapper" beforeDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/mapper/AdvertiserMapper.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/dao/advetiser/mapper/AdvertiserMapper.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/mapper/IncutMapper.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/mapper/IncutMapper.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/quartz/jobs/SimpleJob.kt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/IncutService.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/incut/IncutService.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/services/TestService.kt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/validator/IncutRequestValidator.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/validator/IncutRequestValidator.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/advertiser/advertiser.sql" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/advertiser/advertiser.sql" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/changelog.xml" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/changelog.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/incut/incut.sql" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/incut/incut.sql" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/ddl/incut/test.sql" beforeDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/dml/changelog.xml" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/dml/changelog.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/dml/test.sql" beforeDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/openapi/api/api.yaml" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/openapi/api/api.yaml" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/test/kotlin/ru/yandex/market/adv/incut/clients/VendorPartnerClientTest.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/kotlin/ru/yandex/market/adv/incut/clients/VendorPartnerClientTest.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/test/kotlin/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest.kt" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/kotlin/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest.kt" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/test/kotlin/ru/yandex/market/adv/incut/quartz/SimpleJobTest.kt" beforeDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/test/resources/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest/createIncuts/after.csv" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/resources/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest/createIncuts/after.csv" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/test/resources/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest/createIncuts/incut_body.json" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/resources/ru/yandex/market/adv/incut/controllers/IncutControllerFunctionalTest/createIncuts/incut_body.json" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-partner-client/src/java/ru/yandex/market/vendor/api/client/CategoryRequestHelper.java" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-partner-client/src/java/ru/yandex/market/vendor/api/client/CategoryRequest.java" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-partner-client/src/java/ru/yandex/market/vendor/api/client/VendorPartnerClient.java" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-partner-client/src/java/ru/yandex/market/vendor/api/client/VendorPartnerClient.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/ya.make" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/ya.make" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,15 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,7 +180,8 @@
       <workItem from="1638984205449" duration="7272000" />
       <workItem from="1639244305384" duration="3475000" />
       <workItem from="1639594525583" duration="2238000" />
-      <workItem from="1639849292515" duration="3605000" />
+      <workItem from="1639849292515" duration="3954000" />
+      <workItem from="1640193243350" duration="403000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured">
       <created>1638990916597</created>
@@ -242,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639596151690</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lesson 6. ORM MyBatis &#10;Пишем запросы к БД при помощи движка">
+      <created>1639853101454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639853101454</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +213,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured" />
     <MESSAGE value="Lesson 5. Retrofit&#10;Тестируем внешний сервис при помощи клиента на Retrofit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 5. Retrofit&#10;Тестируем внешний сервис при помощи клиента на Retrofit" />
+    <MESSAGE value="Lesson 6. ORM MyBatis &#10;Пишем запросы к БД при помощи движка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 6. ORM MyBatis &#10;Пишем запросы к БД при помощи движка" />
   </component>
 </project>
