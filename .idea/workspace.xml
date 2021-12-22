@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="Lesson 5. Retrofit&#10;Тестируем внешний сервис при помощи клиента на Retrofit">
+    <list default="true" id="56159ec7-0b4e-442a-8474-0f5ae7651a47" name="Changes" comment="Lesson 7. Jenkins">
       <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/kotlin/ru/yandex/market/adv/incut/config/SaasConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini-market.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/mini-market.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/arcadia/market/adv/incut/ya.make" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/ya.make" afterDir="false" />
     </list>
@@ -53,6 +51,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
@@ -181,7 +180,7 @@
       <workItem from="1639244305384" duration="3475000" />
       <workItem from="1639594525583" duration="2238000" />
       <workItem from="1639849292515" duration="3954000" />
-      <workItem from="1640193243350" duration="403000" />
+      <workItem from="1640193243350" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured">
       <created>1638990916597</created>
@@ -204,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639853101454</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Lesson 7. Jenkins">
+      <created>1640194862980</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640194862980</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +220,7 @@
     <MESSAGE value="Lesson 3. Rest Assured&#10;Тестирование внешнего сервиса при помощи Rest Assured" />
     <MESSAGE value="Lesson 5. Retrofit&#10;Тестируем внешний сервис при помощи клиента на Retrofit" />
     <MESSAGE value="Lesson 6. ORM MyBatis &#10;Пишем запросы к БД при помощи движка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 6. ORM MyBatis &#10;Пишем запросы к БД при помощи движка" />
+    <MESSAGE value="Lesson 7. Jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 7. Jenkins" />
   </component>
 </project>
